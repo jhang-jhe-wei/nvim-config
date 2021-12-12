@@ -9,6 +9,7 @@ call plug#begin()
   Plug 'tomtom/tcomment_vim'
   Plug 'andrewradev/splitjoin.vim'
   Plug 'AndrewRadev/sideways.vim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " surround
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-repeat'
@@ -38,4 +39,13 @@ call plug#begin()
   Plug 'ap/vim-css-color'
   Plug 'AndrewRadev/tagalong.vim'
 
+  if has("nvim")
+    Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+    " (Optional) Multi-entry selection UI.
+    Plug 'junegunn/fzf'
+  endif
 call plug#end()
