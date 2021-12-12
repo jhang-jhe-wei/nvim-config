@@ -39,6 +39,8 @@ call plug#begin()
   Plug 'ap/vim-css-color'
   Plug 'AndrewRadev/tagalong.vim'
 
+  " -----------------------
+  "  Only nvim
   if has("nvim")
     Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
@@ -47,5 +49,6 @@ call plug#begin()
 
     " (Optional) Multi-entry selection UI.
     Plug 'junegunn/fzf'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
   endif
 call plug#end()
