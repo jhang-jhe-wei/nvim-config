@@ -11,6 +11,7 @@ set scrolloff=3
 set noshowmode
 set title
 set encoding=utf-8
+set nocompatible
 
 " search
 set hlsearch
