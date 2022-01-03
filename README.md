@@ -2,4 +2,4 @@
 
 ## Install
 1. `PlugInstall`
-2. `CocInstall coc--solargraph`
+2. `CocInstall coc-solargraph`
