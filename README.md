@@ -1,4 +1,8 @@
 # nvim-config
+## requirement
+- Vim Plugin
+- Node
+- Ruby
 
 ## Install
 1. `PlugInstall`
