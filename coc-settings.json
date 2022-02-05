@@ -1,3 +1,6 @@
 {
-  "solargraph.commandPath": "/Users/wells/.rvm/gems/ruby-2.7.2/bin/solargraph"
+  "solargraph.commandPath": "/Users/wells/.rvm/gems/ruby-2.7.2/bin/solargraph",
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.disableSuccessMessage": true
 }

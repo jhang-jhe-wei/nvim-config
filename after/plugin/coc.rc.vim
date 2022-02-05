@@ -43,3 +43,16 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+let g:coc_global_extensions = [
+\ 'coc-tsserver'
+\ ]
+
+
+if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
+  let g:coc_global_extensions += ['coc-prettier']
+endif
+
+if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
+  let g:coc_global_extensions += ['coc-eslint']
+endif

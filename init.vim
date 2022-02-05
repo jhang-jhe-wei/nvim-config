@@ -46,6 +46,9 @@ autocmd WinLeave * setlocal nocursorline
 autocmd BufWrite * :%s/\s\+$//e
 """ }}}
 
+" Highlight for large file
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 
 " Imports "{{{
 " ---------------------------------------------------------------------

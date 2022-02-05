@@ -39,6 +39,14 @@ call plug#begin()
   Plug 'ap/vim-css-color'
   Plug 'AndrewRadev/tagalong.vim'
 
+  " -----------------------
+  " React
+  Plug 'pangloss/vim-javascript'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'peitalin/vim-jsx-typescript'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+  Plug 'jparise/vim-graphql'
+
 
   " -----------------------
   "  Only nvim
