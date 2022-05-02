@@ -41,12 +41,19 @@ call plug#begin()
 
   " -----------------------
   " React
-  Plug 'pangloss/vim-javascript'
+  Plug 'neoclide/vim-jsx-improve'
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
   Plug 'jparise/vim-graphql'
 
+  " -----------------------
+  " Go
+  Plug 'fatih/vim-go'
+
+  " -----------------------
+  " Tailwind
+  Plug 'yaegassy/coc-tailwindcss', {'do': 'yarn install --frozen-lockfile', 'branch': 'feat/support-v3-and-use-server-pkg'}
 
   " -----------------------
   "  Only nvim
