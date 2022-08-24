@@ -58,11 +58,6 @@ call plug#begin()
   " -----------------------
   "  Only nvim
   if has("nvim")
-    Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
-
     " (Optional) Multi-entry selection UI.
     Plug 'junegunn/fzf'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
