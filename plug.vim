@@ -46,10 +46,24 @@ call plug#begin()
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
   Plug 'jparise/vim-graphql'
+  Plug 'eslint/eslint'
+  Plug 'yannickcr/eslint-plugin-react'
+
+  " -----------------------
+  " Vue
+  Plug 'posva/vim-vue'
 
   " -----------------------
   " Go
   Plug 'fatih/vim-go'
+
+  " -----------------------
+  " Cucumber
+  Plug 'tpope/vim-cucumber'
+
+  " -----------------------
+  " Data Table format
+  Plug 'dhruvasagar/vim-table-mode'
 
   " -----------------------
   " Tailwind
