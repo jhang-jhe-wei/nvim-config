@@ -56,6 +56,10 @@ call plug#begin()
   Plug 'yaegassy/coc-tailwindcss', {'do': 'yarn install --frozen-lockfile', 'branch': 'feat/support-v3-and-use-server-pkg'}
 
   " -----------------------
+  " Coffee script
+  Plug 'kchmck/vim-coffee-script'
+
+  " -----------------------
   "  Only nvim
   if has("nvim")
     " (Optional) Multi-entry selection UI.
