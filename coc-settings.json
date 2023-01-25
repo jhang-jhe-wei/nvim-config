@@ -1,7 +1,15 @@
 {
-  "eslint.autoFixOnSave": true,
-  "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "prettier.disableSuccessMessage": true,
   "tailwindCSS.custom.serverPath": "~/.nvm/versions/node/v16.13.2/bin/tailwindcss-language-server",
-  "emmet.includeLanguages": { "erb": "html"}
+  "emmet.includeLanguages": { "erb": "html"},
+  "solargraph.diagnostics": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.hover": true
 }

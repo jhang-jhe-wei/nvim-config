@@ -10,6 +10,7 @@ call plug#begin()
   Plug 'andrewradev/splitjoin.vim'
   Plug 'AndrewRadev/sideways.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'preservim/tagbar'
   " surround
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-repeat'
@@ -28,6 +29,9 @@ call plug#begin()
   " Theme
   Plug 'vim-airline/vim-airline'
 
+  " -----------------------
+  " Git
+  Plug 'tpope/vim-fugitive'
   " -----------------------
   " Ruby
   Plug 'vim-ruby/vim-ruby'
