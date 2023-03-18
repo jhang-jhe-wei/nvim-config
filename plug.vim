@@ -19,6 +19,8 @@ call plug#begin()
   Plug 'honza/vim-snippets'
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
+  " AI
+  Plug 'github/copilot.vim'
 
   " -----------------------
   " Search
@@ -36,6 +38,9 @@ call plug#begin()
   " Ruby
   Plug 'vim-ruby/vim-ruby'
   Plug 'tpope/vim-rails'
+  Plug 'tpope/vim-rvm'
+  Plug 'tpope/vim-bundler'
+  Plug 'ecomba/vim-ruby-refactoring'
 
   " -----------------------
   " HTML

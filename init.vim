@@ -13,6 +13,10 @@ set title
 set encoding=utf-8
 set nocompatible
 
+" tags
+nnoremap <C-[> :pop<CR>
+nnoremap <leader>rt :silent !ripper-tags -R --exclude=vendor <cr>
+
 " folding
 set foldmethod=syntax
 set foldlevelstart=1
@@ -77,3 +81,4 @@ endif
 
 runtime ./maps.vim
 "}}}
+"
